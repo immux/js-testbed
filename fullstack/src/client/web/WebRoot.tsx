@@ -22,11 +22,11 @@ function WebRoot() {
                         };
                         const response = await fetch(`/api`, {
                             method: "POST",
-                            body: JSON.stringify(request)
+                            body: JSON.stringify(request),
                         });
                         const data: EvaluateResult | EvaluateError = await response.json();
                         if (data.type === "Result") {
-                            setResult(data.result)
+                            setResult(data.result);
                         }
                     }
                 }

@@ -1,7 +1,10 @@
 JS Testbed
 ==========
 
-This is a simple development environment for simple JavaScript/TypeScript projects. 
+Simple development environments for simple JavaScript/TypeScript projects, designed
+for technical interviews.
+
+Choose one of the followings that fits your role.
 
 ### /fe
 
